@@ -50,8 +50,6 @@ namespace RouteExample.Controllers
         /// <example>
         /// GET: localhost:xx/api/exponent?BaseNumber=10&ExponentNumber=1 -> 10
         /// GET: localhost:xx/api/exponent?BaseNumber=10&ExponentNumber=2 -> 100
-        /// 
-        /// GET: localhost:xx/api/exponent?BaseNumber=10&ExponentNumber=1 -> "The base is 10 and the exponent is 1"
         /// </example>
         [HttpGet(template:"Exponent")]
         public double Exponent(int BaseNumber, int ExponentNumber)
